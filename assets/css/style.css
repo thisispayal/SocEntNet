@@ -1,0 +1,96 @@
+/************Reset**************/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, object, iframe, fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+header, footer, nav, section, article, hgroup, figure {
+  display: block; }
+
+/************End Reset**************/
+/************Global**************/
+body {
+  background: #fff;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1em;
+  -webkit-text-size-adjust: 100%; }
+  @media all and (min-width: 40em) {
+    body {
+      padding-left: 2em; } }
+.container{
+	min-height: 600px;
+	width: 720px;
+	margin: 0 auto;
+}
+
+a {
+  color: #DA614E;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  color: #222222;
+  text-decoration: underline; }
+
+p {
+  margin: 0 0 1em; }
+
+img, object, video {
+  max-width: 100%;
+  border: 0; }
+
+a img {
+  border: 0;
+  outline: 0; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.8em; }
+
+h2 {
+  text-transform: lowercase;
+  font-size: 3em;
+  line-height: 1.1;
+  margin: 0 0 0.4em; }
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.1;
+  margin: 0 0 0.2em;
+  text-transform: lowercase; }
+  
+/*******Site Stylings********/
+.socenttext{
+	font-size: 2em;
+	text-align:center;
+}
+
+/*.socenttext:hover{
+	color: rgb(239,66.83);
+}*/
+
+.footer{
+	width:100%;
+	text-align:center;
+	font-weight:300;
+}
+
+.socialmedia{
+	text-align:center;
+}
+
+.example{
+	font-weight: 100;
+}
